@@ -1,4 +1,4 @@
-(function () {
+document.addEventListener('DOMContentLoaded', function() {
   // List of names to greet
   var names = [
     "Yaakov", "John", "Jen", "Jason", 
@@ -18,4 +18,4 @@
       helloSpeaker.speak(names[i]);
     }
   }
-})();
+});
