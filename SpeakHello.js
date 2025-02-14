@@ -1,10 +1,9 @@
-
 // Wrap the entire contents inside an IIFE
 (function (window) {
-  var byeSpeaker = {};
-  var speakWord = "Good Bye";
+  var helloSpeaker = {};
+  var speakWord = "Hello";
 
-  byeSpeaker.speak = function(name) {
+  helloSpeaker.speak = function(name) {
     var message = speakWord + " " + name;
     // Log to console
     console.log(message);
@@ -17,7 +16,7 @@
     }
   };
 
-  // Expose byeSpeaker to the global object
-  window.byeSpeaker = byeSpeaker;
+  // Expose helloSpeaker to the global object
+  window.helloSpeaker = helloSpeaker;
 
 })(window);
